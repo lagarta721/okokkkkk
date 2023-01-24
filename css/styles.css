@@ -1,0 +1,68 @@
+
+
+*{
+    font-family: "Bebas Neue";
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/back-sobre.jfif);
+}
+
+#pai-bar{
+    background-image:url(../img/1500x500.jfif) ;
+    background-size: cover;
+    display: flex;
+}
+#bar-txt{
+    color: #fff;
+    padding: 15px;
+    margin:auto;
+}
+
+#sobre-img{
+    display: flex;
+    height: 500px;
+    width: 1200px;
+    border-radius:10px;
+    margin:auto;   
+}
+
+#botao-int {
+    
+    display: flex;
+    margin:auto;
+    padding-top: 80px;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+#_link{
+    width: 500px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.123);
+    color: rgb(197, 197, 197);
+    border-radius: 10px;
+    font-size: 25px;
+    text-decoration: none;
+    transition: 1;
+}
+
+#_link:hover{
+    width: 500px;
+    padding: 4.5px;
+    background-color: rgba(255, 255, 255, 0.123);
+    color: #fff;
+    border:#fff solid 2px;
+    border-radius: 10px;
+    font-size: 30px;
+    text-decoration:line-through;  
+}
+
+#mp{
+    color: #fff;
+    font-size: 18px;
+    padding-top: 80px;
+    text-decoration: none;
+}
